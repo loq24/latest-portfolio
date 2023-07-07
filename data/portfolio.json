@@ -1,0 +1,7 @@
+[
+  {
+    "name": "The WOO",
+    "description": "<p>Built with NextJS, TypeScript and SASS using Apollo Client in the frontend and implementing Incremental Static Regeneration building feature of NextJS. This is our company's website.</p><p>The backend is built with a Headless WP using a WPGraphQL plugin. I'm in charge of the whole project from frontend to backend development. The site's assets are hosted in AWS S3 with CloudFront CDN.</p>",
+    "image": "/images/TheWoo.jpg"
+  }
+]
