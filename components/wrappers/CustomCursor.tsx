@@ -46,7 +46,7 @@ export default function CustomCursor({
       gsap.to(cursorEl, {
         top: mouseY + "px",
         left: mouseX + "px",
-        duration: 0.4,
+        duration: 1,
       });
     };
 
@@ -73,7 +73,7 @@ export default function CustomCursor({
       {children}
       <div
         ref={customCursorRef}
-        className="pointer-events-none fixed z-[1000] h-14 w-14 -translate-x-1/2 -translate-y-1/2 scale-[.8] rounded-full bg-white opacity-0 mix-blend-difference transition duration-300 ease-in"
+        className="pointer-events-none fixed z-[1000] hidden h-14 w-14 -translate-x-1/2 -translate-y-1/2 scale-[.8] rounded-full bg-white opacity-0 mix-blend-difference transition duration-300 ease-in lg:block"
       />
     </>
   );

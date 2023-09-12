@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ABB Proposal Builder",
+    "tags": ["ReactJS", "GrapesJS", "Typescript", "SASS"],
+    "description": "This app lets you create a proposal letter within minutes. With drag & drop proposal sections that are easy to modify. This works like google docs but focused more on proposal letter building. This app is now owned by American Business Bank.",
+    "link": "https://lougie24.tinytake.com/msc/NzUxMDg3NV8yMDQ0NTI3Nw",
+    "buttonText": "Watch Demo"
+  },
+  {
+    "name": "React WooCommerce",
+    "tags": ["NextJS", "Typescript", "SASS"],
+    "description": "Using the same layout with NextJS Sanity E-commerce app. This version doesn't have the Stripe API installed. It is also powered by GraphQL and Wordpress as a headless CMS in the backend.",
+    "link": "https://react-woocommerce.vercel.app/"
+  },
+  {
+    "name": "React eCommerce",
+    "tags": ["NextJS", "Typescript", "LESS", "Headless WP"],
+    "description": "My first E-commerce website that is built with NextJS framework and AntD design system. The backend is a Headless WP with WooCommerce plugin.",
+    "link": "https://react-ecommerce-alpha.vercel.app/"
+  },
+  {
+    "name": "WOO Holiday Site",
+    "tags": ["NextJS", "Typescript", "SASS"],
+    "description": "My company's holiday website with a little touch of parallax.",
+    "link": "https://wishingtree.thewoo.com/"
+  },
+  {
+    "name": "WP React Typescript",
+    "tags": ["ReactJS", "Headless WP", "Typescript", "Jest", "Enzyme"],
+    "description": "My other personal project that helped me learn Typescript and made me realize how awesome it is for your project. After this project, I started to use Typescript in all of my next ReactJS, React Native & NextJS projects. This also taught me how to implement testing. I learned how to use JEST and Enzyme and it also made me realize how important testing is.",
+    "link": "https://wp-react-ts.lougiequisel.com/"
+  }
+]

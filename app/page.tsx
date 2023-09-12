@@ -1,13 +1,16 @@
-import Header from "@/components/Header";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Nav from "@/components/nav/Nav";
+import About from "@/components/about/About";
 import Hero from "@/components/hero/Hero";
-import Portfolio from "@/components/portfolio/Portfolio";
+import FeaturedProjects from "@/components/featured-projects/FeaturedProjects";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div className="flex flex-col">
-      <Header />
+    <>
       <Hero />
-      <Portfolio />
-    </div>
+      <About />
+      <FeaturedProjects />
+    </>
   );
 }

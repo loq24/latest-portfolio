@@ -1,0 +1,8 @@
+[
+  {
+    "name": "WNA",
+    "description": "Probably, the biggest website that I developed so far. This is a pure Wordpress website with a lot of customizations. I built plugins for several features of this website. I also created a report that is made with ReactJS for this website.",
+    "tags": ["Wordpress", "Custom Plugins", "Mailchimp", "Admin Reporting"],
+    "link": "https://whatnowatlanta.com/"
+  }
+]

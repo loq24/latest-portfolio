@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Delonghi TrueBrew",
+    "featuredImage": "/images/websites/delonghi.jpg",
+    "tags": ["NextJS", "GSAP", "Typescript", "SASS"],
+    "description": "A website for the new product launch of Delonghi TrueBrew. The website is a single page application with numerous scroll-based animations, making it one of the most complex projects I've ever worked on. Since the website includes large images and many animations, I had to ensure that there were no performance issues and that the animations were smooth.",
+    "link": "https://delonghitruebrew.com/"
+  },
+  {
+    "name": "WOO",
+    "featuredImage": "/images/websites/theWoo.jpg",
+    "tags": ["NextJS", "Headless WP", "GraphQL", "Typescript", "SASS"],
+    "description": "Built with NextJS, TypeScript and SASS using Apollo Client in the frontend and implementing Incremental Static Regeneration building feature of NextJS. This is our company's website. The backend is built with a Headless WP using a WPGraphQL plugin. I'm in charge of the whole project from frontend to backend development. The site's assets are hosted in AWS S3 with CloudFront CDN.",
+    "link": "https://thewoo.com/"
+  },
+  {
+    "name": "Whipshots",
+    "featuredImage": "/images/websites/whipshots.jpeg",
+    "tags": ["NextJS", "Typescript", "SASS"],
+    "description": "The website for the newly launched Starco product that is currently being promoted by Cardi B using NextJS, TypeScript, and SASS. There was a lot of pressure while developing this website since it was being promoted by a popular artist. However, I used this as motivation to deliver a website that exceeded expectations.",
+    "link": "https://whipshots.com/"
+  },
+  {
+    "name": "American Business Bank",
+    "description": "A WordPress website designed for a bank, built with Elementor. To boost performance and security, the site is converted into a speedy static website using the Simply Static plugin.",
+    "featuredImage": "/images/websites/americanbb-bank.jpg",
+    "tags": ["Wordpress", "Simply Static", "Elementor", "Github CI/CD"],
+    "link": "https://americanbb.bank/"
+  },
+  {
+    "name": "eCommerce Starter Kit",
+    "featuredImage": "/images/websites/nextjs-sanity-ecommerce.jpg",
+    "tags": ["NextJS", "Sanity.io", "Typescript", "TailwindCSS", "StripeAPI"],
+    "description": "A Next.js E-commerce app integrated with Sanity.io. This is my personal project that is built with the TailwindCSS framework & SASS CSS extension. This is an E-commerce starter kit featuring seamless integration with the Stripe API.",
+    "link": "https://nextjs-sanity-ecommerce-loq24.vercel.app/"
+  }
+]
