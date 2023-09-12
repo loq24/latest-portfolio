@@ -13,7 +13,4 @@
   .bottom-clipped {
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
   }
-  .bg-pattern::after {
-    @apply absolute z-[-1] h-full w-full bg-[#e5e5f7] bg-[radial-gradient(#02020b_0.5px,_transparent_0.5px),radial-gradient(#02020b_0.5px,_#e5e5f7_0.5px)] bg-[length:20px_20px] bg-[0_0,10px_10px] opacity-70 content-[''];
-  }
 }
