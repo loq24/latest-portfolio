@@ -1,45 +1,13 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
 import Button from "../common/Button";
 import Heading from "../common/Heading";
 import Text from "../common/Text";
 
 export default function About() {
-  const wrapperRef = useRef(null);
-  const t1 = useRef<any>(null);
-
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // gsap.to(wrapperRef.current, {
-      //   scrollTrigger: {
-      //     trigger: wrapperRef.current,
-      //     start: "top top",
-      //     pin: true,
-      //     end: "+=1000",
-      //     pinSpacing: true,
-      //   },
-      // });
-      // t1.current = gsap
-      //   .timeline({
-      //     scrollTrigger: {
-      //       trigger: wrapperRef.current,
-      //       scrub: 0.5,
-      //       start: "top top",
-      //       end: "+=2500",
-      //     },
-      //   })
-      //   .to(wrapperRef.current, { backgroundColor: "red" });
-    }, wrapperRef);
-
-    return () => ctx.revert();
-  }, []);
-
   return (
     <div
       className="centered-block flex items-center pb-48 pt-20 lg:flex-row lg:gap-14"
-      ref={wrapperRef}
       id="about"
     >
       <div className="w-full lg:w-1/2">
