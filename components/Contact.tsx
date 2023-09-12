@@ -28,22 +28,6 @@ export default function Contact() {
           </a>
         </li>
       </ul>
-      <div className="hidden flex-1">
-        <h2 className="mb-4 text-2xl font-normal text-raisin-black">
-          Socials:
-        </h2>
-        <ul className="flex items-start gap-2 text-neutral-600">
-          <li className="mt-1">
-            <a href="https://github.com/loq24">
-              <Github />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/loq24/">
-              <Instagram />
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   );
