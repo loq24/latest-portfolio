@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Hungry Duma",
+    "description": "This is my first ever React Native project that was published to the Google Play Store. I am using Headless WP for my backend. This project really helped me master React Native. It also taught me how to manage react-navigation properly as well.",
+    "tags": ["React Native", "React Native Maps", "Headless WP"],
+    "link": "https://play.google.com/store/apps/details?id=com.randomdumagueterestaurant",
+    "buttonText": "Visit Play Store"
+  },
+  {
+    "name": "Freelancer Kiosk App",
+    "description": "This is a simple app that records the Time In and Time Out of the company's interns. The submitted data is saved into the backend and can be exported easily.",
+    "tags": ["React Native", "Typescript", "Headless WP"],
+    "link": "https://screencast-o-matic.com/watch/cYnX6pwOHt",
+    "buttonText": "Watch It In Action"
+  },
+  {
+    "name": "Shedynasy Podcast App",
+    "description": "A podcast app for the Shedynasty.com website. This is one of the biggest apps that I developed. I learned a lot about handling huge data with the REST API and it also enhanced my Typescript knowledge as well.",
+    "tags": ["React Native", "Typescript", "Headless WP"],
+    "link": "https://screencast-o-matic.com/watch/cYnXIYwORV",
+    "buttonText": "Watch It In Action"
+  }
+]
