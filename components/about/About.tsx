@@ -45,16 +45,16 @@ export default function About() {
       <div className="w-full lg:w-1/2">
         <Heading>About Me</Heading>
         <Text className="mb-4">
-          I'm a passionate frontend web developer with a journey spanning more
-          than a decade in the ever-evolving digital landscape. My expertise
-          lies in crafting pixel-perfect designs and translating them into
-          smooth, responsive, and visually stunning websites.
+          I&apos;m a passionate frontend web developer with a journey spanning
+          more than a decade in the ever-evolving digital landscape. My
+          expertise lies in crafting pixel-perfect designs and translating them
+          into smooth, responsive, and visually stunning websites.
         </Text>
         <p className="text-justify font-work-sans text-xl text-neutral-600 lg:text-xl">
-          Over the years, I've had the privilege of building websites for
-          various clients, including a bank, a popular artist's promotional
-          website, a website for a popular company's new product launch, and a
-          corporate website.
+          Over the years, I&apos;ve had the privilege of building websites for
+          various clients, including a bank, a popular artist&apos;s promotional
+          website, a website for a popular company&apos;s new product launch,
+          and a corporate website.
         </p>
       </div>
       <div className="flex w-full flex-col items-start justify-center lg:w-1/2">

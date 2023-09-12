@@ -11,7 +11,7 @@ export default function Contact() {
     >
       <Heading className="mb-3">Contact</Heading>
       <Text className="mb-3 text-lg">
-        Hit me up if you're interested in working together.
+        Hit me up if you&apos;re interested in working together.
       </Text>
       <Text className="mb-3 font-semibold">
         <a href="mailto:lougie.quisel@gmail.com">lougie.quisel@gmail.com</a>

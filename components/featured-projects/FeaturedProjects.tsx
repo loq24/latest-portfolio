@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="centered-block mb-32 flex flex-col justify-center">
         <Heading className="mb-4 text-center">Featured Projects</Heading>
         <Text className="text-center">
-          Here are my recent featured projects that I'm very proud of.
+          Here are my recent featured projects that I&apos;m very proud of.
         </Text>
       </div>
       {projects.map((project) => {
