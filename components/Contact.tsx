@@ -14,21 +14,20 @@ export default function Contact() {
         Hit me up if you're interested in working together.
       </Text>
       <Text className="mb-3 font-semibold">
-        <a href="mailto:">lougie.quisel@gmail.com</a>
+        <a href="mailto:lougie.quisel@gmail.com">lougie.quisel@gmail.com</a>
       </Text>
       <ul className="flex items-start gap-2 text-neutral-600">
         <li className="mt-1">
-          <a href="">
+          <a href="https://github.com/loq24">
             <Github />
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.instagram.com/loq24/">
             <Instagram />
           </a>
         </li>
       </ul>
-      </div>
     </div>
   );
 }
