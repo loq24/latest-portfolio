@@ -29,13 +29,13 @@ export default function Hero() {
         ref={wrapperRef}
       >
         <h1
-          className="bottom-clipped relative inline-block translate-y-7 overflow-hidden text-center font-anek-bangla text-8xl font-normal text-raisin-black opacity-0  lg:text-8xl"
+          className="bottom-clipped relative inline-block translate-y-7 overflow-hidden text-center font-anek-bangla text-5xl font-normal text-raisin-black opacity-0 sm:text-7xl lg:text-8xl"
           data-animation="text"
         >
           <span className="relative z-10">Hi, I&apos;m Lougie Quisel</span>
         </h1>
         <h2
-          className="bottom-clipped inline-block translate-y-7 overflow-hidden text-center font-work-sans text-base font-normal text-neutral-600 opacity-0 lg:max-w-[50%] lg:text-2xl"
+          className="bottom-clipped inline-block translate-y-7 overflow-hidden text-center font-work-sans text-base font-normal text-neutral-600 opacity-0 sm:text-xl lg:max-w-[50%] lg:text-2xl"
           data-animation="text"
         >
           A seasoned frontend web developer with a passion for creating engaging

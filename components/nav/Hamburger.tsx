@@ -12,7 +12,7 @@ export default function Hamburger() {
   };
 
   return (
-    <div className="absolute right-0 top-0 shrink-0 opacity-0 duration-75 group-[.scrolling]:z-50 group-[.scrolling]:opacity-100 group-[.scrolling]:delay-300 group-[.scrolling]:duration-300">
+    <div className="absolute right-0 top-0 shrink-0 opacity-100 duration-75 sm:opacity-0 group-[.scrolling]:sm:z-50 group-[.scrolling]:sm:opacity-100 group-[.scrolling]:sm:delay-300 group-[.scrolling]:sm:duration-300">
       <button
         className="relative"
         onClick={() => toggleHamburger(!active)}
@@ -48,8 +48,8 @@ export default function Hamburger() {
 
         <div
           className={classNames(
-            "absolute right-5 top-14 min-w-[120px] rounded bg-slate-200 p-3 opacity-0 transition-opacity duration-300",
-            { "opacity-100": active }
+            "pointer-events-none absolute right-5 top-14 min-w-[120px] rounded bg-slate-200 p-3 opacity-0 transition-opacity duration-300",
+            { "pointer-events-auto opacity-100": active }
           )}
         >
           <ul className="flex flex-col items-center font-inter tracking-wide text-raisin-black">
