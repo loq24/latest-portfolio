@@ -2,6 +2,7 @@ import React from "react";
 import ExternalLink from "../svgs/ExternalLink";
 import Button from "../common/Button";
 import { ProjectType } from "@/types";
+import Text from "../common/Text";
 
 type ProjectPropType = {
   project: ProjectType;
@@ -14,7 +15,7 @@ export default function Project({ project }: ProjectPropType) {
     <div className="flex flex-1 flex-col justify-start gap-3 rounded-lg  bg-slate-50 p-6 shadow">
       <h2
         data-animation="text"
-        className="mr-1 font-anek-bangla text-3xl font-semibold text-raisin-black"
+        className="mr-1 font-anek-bangla text-2xl font-semibold text-raisin-black md:text-3xl"
       >
         {name}
       </h2>
@@ -27,11 +28,7 @@ export default function Project({ project }: ProjectPropType) {
           );
         })}
       </div>
-      <p
-        data-animation="text"
-        className="text-justify font-work-sans text-lg text-neutral-600"
-        dangerouslySetInnerHTML={{ __html: description }}
-      />
+      <Text>{description}</Text>
 
       <a
         data-animation="text"

@@ -29,16 +29,16 @@ export default function SeeMore() {
 
   return (
     <div
-      className="flex flex-col items-center justify-center gap-3 opacity-0"
+      className="mx-auto flex max-w-xl flex-col items-center justify-center gap-3 px-5 opacity-0 sm:px-10"
       ref={wrapperRef}
     >
-      <Text className="text-base">
+      <Text className="text-center text-sm text-neutral-500">
         Take a look at some of my earlier projects that I have had the
         opportunity to work on.
       </Text>
       <Link
         href="/projects"
-        className="whitespace-no-wrap inline-flex items-center justify-center rounded-md border border-gray-200 bg-white px-4 py-2 text-base  font-medium leading-6 text-gray-600 shadow-sm hover:bg-gray-50 focus:shadow-none focus:outline-none"
+        className="whitespace-no-wrap inline-flex items-center justify-center rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium  leading-6 text-gray-600 shadow-sm hover:bg-gray-50 focus:shadow-none focus:outline-none sm:text-base"
       >
         See more
       </Link>
