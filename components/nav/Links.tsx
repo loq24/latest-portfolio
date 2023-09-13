@@ -1,6 +1,7 @@
 "use client";
 
 import gsap from "gsap";
+import { usePathname } from "next/navigation";
 
 const links = ["about", "projects", "contact"];
 
@@ -10,6 +11,8 @@ type LinksType = {
 };
 
 export default function Links({ liClassName, anchorClassName }: LinksType) {
+  const pathname = usePathname();
+
   const scrollToSection = (
     e: React.MouseEvent<HTMLAnchorElement> | undefined,
     section: string
@@ -23,6 +26,8 @@ export default function Links({ liClassName, anchorClassName }: LinksType) {
   };
 
   return links.map((link: string) => {
+    if (pathname === "/projects" && link != "contact") return;
+
     return (
       <li key={link} className={liClassName}>
         <a
