@@ -2,6 +2,7 @@ import React from "react";
 import ExternalLink from "../svgs/ExternalLink";
 import Button from "../common/Button";
 import { ProjectType } from "@/types";
+import Text from "../common/Text";
 
 type ProjectPropType = {
   project: ProjectType;
@@ -27,11 +28,7 @@ export default function Project({ project }: ProjectPropType) {
           );
         })}
       </div>
-      <p
-        data-animation="text"
-        className="text-justify font-work-sans text-lg text-neutral-600"
-        dangerouslySetInnerHTML={{ __html: description }}
-      />
+      <Text>{description}</Text>
 
       <a
         data-animation="text"
