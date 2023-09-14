@@ -13,7 +13,7 @@ export default function ProjectCategory({
 }: ProjectCategoryType) {
   return (
     <div className="mb-16 w-full sm:mb-20 md:mb-24">
-      <h2 className="mb-5 font-anek-bangla text-3xl font-semibold text-raisin-black sm:text-4xl ">
+      <h2 className="mb-5 font-anek-bangla text-3xl font-semibold text-gray-700 sm:text-4xl">
         {name}
       </h2>
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-14">
