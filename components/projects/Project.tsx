@@ -15,7 +15,7 @@ export default function Project({ project }: ProjectPropType) {
     <div className="flex flex-1 flex-col justify-start gap-3 rounded-lg  bg-slate-50 p-6 shadow">
       <h2
         data-animation="text"
-        className="mr-1 font-anek-bangla text-2xl font-semibold text-raisin-black md:text-3xl"
+        className="mr-1 font-anek-bangla text-xl font-semibold text-raisin-black md:text-3xl"
       >
         {name}
       </h2>
