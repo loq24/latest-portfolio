@@ -18,8 +18,32 @@ const workSans = Work_Sans({
 });
 
 export const metadata = {
-  title: "Lougie Quisel | Frontend Web Developer",
-  description: "Frontend Web Developer",
+  title: {
+    template: "Lougie Quisel | %s",
+    default: "Lougie Quisel | Frontend Web Developer",
+  },
+  description:
+    "A seasoned frontend web developer with a passion for creating engaging and intuitive websites.",
+  metadataBase: new URL("https://portfolio-latest-loq24.vercel.app"),
+  openGraph: {
+    title: {
+      template: "Lougie Quisel | %s",
+      default: "Lougie Quisel | Frontend Web Developer",
+    },
+    description:
+      "A seasoned frontend web developer with a passion for creating engaging and intuitive websites.",
+    url: "https://lougiequisel.digital/",
+    siteName: "Lougie Quisel",
+    images: [
+      {
+        url: "/images/lougiequisel.jpg",
+        width: 1000,
+        height: 1200,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
