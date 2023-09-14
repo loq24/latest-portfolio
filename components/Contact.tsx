@@ -18,12 +18,16 @@ export default function Contact() {
       </Text>
       <ul className="flex items-start gap-2 text-neutral-600">
         <li className="mt-1">
-          <a href="https://github.com/loq24">
+          <a href="https://github.com/loq24" target="_blank" rel="nofollow">
             <Github />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/loq24/">
+          <a
+            href="https://www.instagram.com/loq24/"
+            target="_blank"
+            rel="nofollow"
+          >
             <Instagram />
           </a>
         </li>
