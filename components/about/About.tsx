@@ -7,7 +7,7 @@ import Text from "../common/Text";
 export default function About() {
   return (
     <div
-      className="centered-block flex flex-col items-center pb-48 pt-20 lg:flex-row lg:gap-14"
+      className="centered-block flex flex-col items-center pb-16 pt-20 lg:flex-row lg:gap-14 lg:pb-48"
       id="about"
     >
       <div className="mb-9 w-full lg:mb-0 lg:w-1/2">
