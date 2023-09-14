@@ -34,8 +34,8 @@ export default function page() {
             Other Projects
           </Heading>
           <Text className="text-neutral-500">
-            Here are some additional projects I've been involved with over the
-            years.
+            Here are some additional projects I&apos;ve been involved with over
+            the years.
           </Text>
           <Text className="text-neutral-500">
             Check out my featured projects on the home page.
