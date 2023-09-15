@@ -51,13 +51,13 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
           <img
             src="images/macbook-02.png"
             alt="Macbook Mockup"
-            className="relative z-30 h-full w-full object-contain"
+            className="relative z-30 h-full w-full object-contain [transform-style:preserve-3d] [transform:translateZ(1000px)]"
           />
-          <div className="absolute left-0 top-0 z-10 h-[calc(100%-15px)] w-full overflow-hidden">
+          <div className="absolute left-0 top-1 z-10 h-[calc(100%-15px)] w-full overflow-hidden">
             <img
               data-animation="website-img"
               src={featuredImage}
-              className="absolute left-0 right-0 top-1 mx-auto h-auto w-[78%] -translate-y-64 object-contain will-change-transform"
+              className="absolute left-0 right-0 top-1 z-10 mx-auto h-auto w-[78%] -translate-y-64 object-contain will-change-transform"
               alt={name}
             />
           </div>

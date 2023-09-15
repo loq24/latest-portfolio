@@ -61,13 +61,13 @@ export default function RootLayout({
       )}
     >
       <body className="group bg-slate-50 text-white">
-        {/* <CustomCursor> */}
-        <Nav />
-        <ScrollSmootherInit>
-          {children}
-          <Contact />
-        </ScrollSmootherInit>
-        {/* </CustomCursor> */}
+        <CustomCursor>
+          <Nav />
+          <ScrollSmootherInit>
+            {children}
+            <Contact />
+          </ScrollSmootherInit>
+        </CustomCursor>
       </body>
     </html>
   );

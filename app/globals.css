@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  ::-webkit-scrollbar {
+    @apply h-2 w-2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-xl bg-[rgba(90,90,90)];
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[rgba(0,0,0,0)];
+  }
+}
+
 @layer components {
   .centered-block {
     --ideal-block-width: min(1200px, 85%);
