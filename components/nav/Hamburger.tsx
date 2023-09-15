@@ -12,7 +12,7 @@ export default function Hamburger() {
   };
 
   return (
-    <div className="absolute right-0 top-0 z-10 shrink-0 opacity-100 duration-75 sm:opacity-0 group-[.scrolling]:sm:z-50 group-[.scrolling]:sm:opacity-100 group-[.scrolling]:sm:delay-300 group-[.scrolling]:sm:duration-300">
+    <div className="no-rounded-cursor absolute right-0 top-0 z-10 shrink-0 opacity-100 duration-75 sm:opacity-0 group-[.scrolling]:sm:z-50 group-[.scrolling]:sm:opacity-100 group-[.scrolling]:sm:delay-300 group-[.scrolling]:sm:duration-300">
       <button
         className="relative"
         tabIndex={0}

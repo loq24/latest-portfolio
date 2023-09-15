@@ -10,7 +10,7 @@ export default function Nav() {
           className="shrink-0 duration-300 group-[.scrolling]:opacity-0"
           href="/"
         >
-          <div className="h-[50px] w-[50px] rounded-full bg-[url('/images/lougiequisel.png')] bg-cover ring-4 ring-slate-200"></div>
+          <div className="no-rounded-cursor h-[50px] w-[50px] rounded-full bg-[url('/images/lougiequisel.png')] bg-cover ring-4 ring-slate-200"></div>
         </Link>
         <ul className="relative z-20 hidden flex-wrap justify-between py-3 font-inter tracking-wide text-raisin-black duration-300 group-[.scrolling]:opacity-0 sm:flex">
           <Links

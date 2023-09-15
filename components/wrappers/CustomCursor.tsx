@@ -31,6 +31,24 @@ export default function CustomCursor({
 
     scaleCursor();
 
+    const hideCustomCursor = () => {
+      if (!cursorEl) return;
+
+      let elements = document.querySelectorAll(".no-rounded-cursor");
+      console.log("elements", elements);
+
+      elements.forEach(function (elem) {
+        elem.addEventListener("mouseover", function () {
+          cursorEl.classList.add("lg:hidden");
+        });
+        elem.addEventListener("mouseout", function () {
+          cursorEl.classList.remove("lg:hidden");
+        });
+      });
+    };
+
+    hideCustomCursor();
+
     const onMouseMove = (e: MouseEvent) => {
       var mouseX = e.clientX;
       var mouseY = e.clientY;
