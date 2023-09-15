@@ -35,7 +35,6 @@ export default function CustomCursor({
       if (!cursorEl) return;
 
       let elements = document.querySelectorAll(".no-rounded-cursor");
-      console.log("elements", elements);
 
       elements.forEach(function (elem) {
         elem.addEventListener("mouseover", function () {
