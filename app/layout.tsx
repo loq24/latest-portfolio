@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Lougie Quisel",
     images: [
       {
-        url: "/images/lougiequisel.jpg",
+        url: "https://lougiequisel.digital/images/lougiequisel.jpg",
         width: 1000,
         height: 1200,
       },

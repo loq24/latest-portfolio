@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Projects",
     description: "My previous projects that I worked on over the years.",
-    url: "https://lougiequisel.digital/",
+    url: "https://lougiequisel.digital/images/lougiequisel.jpg",
     siteName: "Lougie Quisel",
     images: [
       {
