@@ -80,18 +80,20 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
           </div>
           <Text>{description}</Text>
 
-          <a
-            data-animation="text"
-            href={link}
-            target="_blank"
-            rel="nofollow"
-            className="flex gap-1 text-base text-neutral-600 sm:text-lg"
-          >
-            <span>Visit Website</span>
-            <div className="h-5 w-5 translate-y-1">
-              <ExternalLink />
-            </div>
-          </a>
+          {link && (
+            <a
+              data-animation="text"
+              href={link}
+              target="_blank"
+              rel="nofollow"
+              className="flex gap-1 text-base text-neutral-600 sm:text-lg"
+            >
+              <span>Visit Website</span>
+              <div className="h-5 w-5 translate-y-1">
+                <ExternalLink />
+              </div>
+            </a>
+          )}
         </div>
       </div>
     </div>

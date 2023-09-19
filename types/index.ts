@@ -3,6 +3,6 @@ export type ProjectType = {
   featuredImage?: string;
   tags: string[];
   description: string;
-  link: string;
+  link?: string;
   buttonText?: string;
 };
