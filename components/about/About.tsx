@@ -45,8 +45,8 @@ export default function About() {
         </h3>
         <div className="mb-7 flex flex-wrap gap-3 font-anek-bangla text-lg">
           <Button>Python</Button>
+          <Button>Prisma</Button>
           <Button>React Three Fiber</Button>
-          <Button>React Native</Button>
           <Button>PHP</Button>
         </div>
       </div>
