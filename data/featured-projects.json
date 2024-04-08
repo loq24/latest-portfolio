@@ -7,6 +7,13 @@
     "link": "https://delonghitruebrew.com/"
   },
   {
+    "name": "American Business Bank",
+    "description": "Built with NextJS' App Router along with TailwindCSS. We've set up a WP API backend for this site. Additionally, I've implemented CI/CD with GitHub so that whenever someone commits an update to our GitHub repository, the site automatically rebuilds itself, syncs build files into an S3 bucket, and commits the build files into a separate repository that serves as the source for the production website. The GitHub action can also be triggered on the backend so that the site will be rebuilt with the latest backend content. The website is accessible only within the US.",
+    "featuredImage": "/images/websites/americanbb-bank-new.jpg",
+    "tags": ["NextJS", "TailwindCSS", "WP API", "Github CI/CD"],
+    "link": "https://americanbb.bank/"
+  },
+  {
     "name": "WOO",
     "featuredImage": "/images/websites/thewoo.jpg",
     "tags": ["NextJS", "Headless WP", "GraphQL", "Typescript", "SASS"],
@@ -18,13 +25,6 @@
     "featuredImage": "/images/websites/whipshots.jpeg",
     "tags": ["NextJS", "Typescript", "SASS"],
     "description": "The website for the newly launched Starco product that is currently being promoted by Cardi B using NextJS, TypeScript, and SASS. There was a lot of pressure while developing this website since it was being promoted by a popular artist. However, I used this as motivation to deliver a website that exceeded expectations. Unfortunately, the website was updated to become a full-scale eCommerce website."
-  },
-  {
-    "name": "American Business Bank",
-    "description": "A WordPress website designed for a bank, built with Elementor. To boost performance and security, the site is converted into a speedy static website using the Simply Static plugin.",
-    "featuredImage": "/images/websites/americanbb-bank.jpg",
-    "tags": ["Wordpress", "Simply Static", "Elementor", "Github CI/CD"],
-    "link": "https://americanbb.bank/"
   },
   {
     "name": "eCommerce Starter Kit",

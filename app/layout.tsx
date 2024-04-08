@@ -2,7 +2,6 @@ import "./globals.css";
 import classNames from "classnames";
 import { Inter, Anek_Bangla, Work_Sans } from "next/font/google";
 import ScrollSmootherInit from "@/components/wrappers/ScrollSmootherInit";
-import CustomCursor from "@/components/wrappers/CustomCursor";
 import Nav from "@/components/nav/Nav";
 import Contact from "@/components/Contact";
 
@@ -61,13 +60,11 @@ export default function RootLayout({
       )}
     >
       <body className="group bg-slate-50 text-white">
-        <CustomCursor>
-          <Nav />
-          <ScrollSmootherInit>
-            {children}
-            <Contact />
-          </ScrollSmootherInit>
-        </CustomCursor>
+        <Nav />
+        <ScrollSmootherInit>
+          {children}
+          <Contact />
+        </ScrollSmootherInit>
       </body>
     </html>
   );
