@@ -25,7 +25,8 @@
     "name": "Whipshots",
     "featuredImage": "/images/websites/whipshots.jpeg",
     "tags": ["NextJS", "Typescript", "SASS"],
-    "description": "The website for the newly launched Starco product that is currently being promoted by Cardi B using NextJS, TypeScript, and SASS. There was a lot of pressure while developing this website since it was being promoted by a popular artist. However, I used this as motivation to deliver a website that exceeded expectations. Unfortunately, the website was updated to become a full-scale eCommerce website."
+    "description": "The website for the newly launched Starco product that is currently being promoted by Cardi B using NextJS, TypeScript, and SASS. There was a lot of pressure while developing this website since it was being promoted by a popular artist. However, I used this as motivation to deliver a website that exceeded expectations.",
+    "link": "https://whipshots-website.vercel.app/"
   },
   {
     "name": "eCommerce Starter Kit",
