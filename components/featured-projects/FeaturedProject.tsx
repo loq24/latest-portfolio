@@ -12,7 +12,7 @@ type FeaturedProjectType = {
 };
 
 export default function FeaturedProject({ project }: FeaturedProjectType) {
-  const { name, description, tags, featuredImage, link } = project;
+  const { name, description, tags, featuredImage, link, buttonText } = project;
   const wrapperRef = useRef(null);
 
   useEffect(() => {
@@ -88,7 +88,7 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
               rel="nofollow"
               className="flex gap-1 text-base text-neutral-600 sm:text-lg"
             >
-              <span>Visit Website</span>
+              <span>{buttonText ? buttonText : "Visit Website"}</span>
               <div className="h-5 w-5 translate-y-1">
                 <ExternalLink />
               </div>
