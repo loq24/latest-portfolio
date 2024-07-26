@@ -33,6 +33,6 @@
     "featuredImage": "/images/websites/nextjs-sanity-ecommerce.jpg",
     "tags": ["NextJS", "Sanity.io", "Typescript", "TailwindCSS", "StripeAPI"],
     "description": "A Next.js E-commerce app integrated with Sanity.io. This is my personal project that is built with the TailwindCSS framework & SASS CSS extension. This is an E-commerce starter kit featuring seamless integration with the Stripe API.",
-    "link": "https://nextjs-sanity-ecommerce-loq24.vercel.app/"
+    "link": "https://nextjs-sanity-ecommerce-ecru.vercel.app/"
   }
 ]
