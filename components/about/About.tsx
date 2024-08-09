@@ -13,7 +13,7 @@ export default function About() {
       <div className="mb-9 w-full lg:mb-0 lg:w-1/2">
         <Heading>About Me</Heading>
         <Text className="mb-4">
-          I&apos;m a passionate frontend web developer with over 12 years of
+          I&apos;m a passionate Full Stack Engineer with over 12 years of
           experience navigating the ever-evolving digital landscape. My
           expertise lies in the ReactJS ecosystem, where I excel at building
           dynamic and responsive user interfaces.
