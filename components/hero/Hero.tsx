@@ -38,7 +38,7 @@ export default function Hero() {
           className="bottom-clipped inline-block translate-y-7 overflow-hidden text-center font-work-sans text-base font-normal text-neutral-600 opacity-0 sm:text-xl lg:max-w-[50%] lg:text-2xl"
           data-animation="text"
         >
-          A seasoned frontend web developer with a passion for creating engaging
+          A seasoned Full Stack Engineer with a passion for creating engaging
           and intuitive websites.
         </h2>
 
