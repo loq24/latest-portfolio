@@ -6,10 +6,7 @@ A modern portfolio website built with Next.js 13, GSAP animations, TypeScript an
 
 - Modern and responsive design
 - Smooth scrolling with GSAP ScrollSmoother
-- Custom cursor implementation
 - Featured projects showcase
-- Project filtering by technology
-- Contact section with social links
 - SEO optimized with Next.js metadata
 - Mobile-friendly navigation
 - Performance optimized images
