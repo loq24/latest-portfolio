@@ -5,4 +5,5 @@ export type ProjectType = {
   description: string;
   link?: string;
   buttonText?: string;
+  repository_link?: string;
 };
