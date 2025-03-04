@@ -9,7 +9,7 @@
   },
   {
     "name": "American Business Bank",
-    "description": "Built with NextJS' App Router along with TailwindCSS. We've set up a WP API backend for this site. Additionally, I've implemented CI/CD with GitHub so that whenever someone commits an update to our GitHub repository, the site automatically rebuilds itself, syncs build files into an S3 bucket, and commits the build files into a separate repository that serves as the source for the production website. The GitHub action can also be triggered on the backend so that the site will be rebuilt with the latest backend content. The website is accessible only within the US.",
+    "description": "A sophisticated banking website for a US financial institution featuring secure, region-restricted access. Engineered with NextJS' App Router and TailwindCSS for exceptional performance and responsive design. Implemented a headless architecture with WordPress API backend, enabling the client to manage content through a familiar CMS while maintaining frontend performance. Established a robust CI/CD pipeline using GitHub Actions that automatically deploys updates, synchronizes with S3 storage, and maintains separate repositories for development and production—ensuring seamless content updates and consistent version control across environments.",
     "featuredImage": "/images/websites/americanbb-bank-new.jpg",
     "tags": ["NextJS", "TailwindCSS", "WP API", "Github CI/CD"],
     "buttonText": "Visit Website (Available for US only)",
