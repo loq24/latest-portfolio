@@ -17,16 +17,9 @@
   },
   {
     "name": "Online Collaboration App",
-    "description": "A real-time collaboration platform built with React and WebSocket technology. Features include live document editing, team chat functionality, comment threads and discussions, modern rich text editor interface, and seamless file sharing capabilities. Includes user authentication, role-based access control, and end-to-end encryption for secure collaboration.",
+    "description": "A real-time collaboration platform built with NextJS and Liveblocks. Features include live document editing, team chat functionality, comment threads and discussions, modern rich text editor interface, and seamless file sharing capabilities. Includes user authentication with Clerk, role-based access control, and end-to-end encryption for secure collaboration.",
     "featuredImage": "/images/websites/online-collab-app-v2.jpg",
-    "tags": [
-      "React",
-      "TypeScript",
-      "WebSocket",
-      "Liveblocks",
-      "Sentry",
-      "Clerk"
-    ],
+    "tags": ["NextJS", "TypeScript", "Liveblocks", "Sentry", "Clerk"],
     "buttonText": "View Demo",
     "link": "https://online-collab-app.vercel.app/",
     "repository_link": "https://github.com/loq24/online-collab-app"
