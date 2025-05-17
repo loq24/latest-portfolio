@@ -92,7 +92,7 @@ export default function About() {
 
   return (
     <div
-      className="centered-block flex flex-col items-start pb-16 pt-20 lg:gap-14 lg:pb-48"
+      className="centered-block flex flex-col items-start pb-16 pt-20 lg:gap-20 lg:pb-48"
       id="about"
     >
       <div className="mb-9 w-full lg:mb-0">
@@ -118,13 +118,13 @@ export default function About() {
         </Text>
       </div>
       <div className="flex w-full flex-col items-start justify-center">
-        <h2 className="mb-6 font-anek-bangla text-2xl font-semibold text-raisin-black sm:text-5xl">
+        <h2 className="mb-6 font-anek-bangla text-2xl font-semibold text-raisin-black sm:text-5xl lg:mb-8">
           My Skills
         </h2>
         <div className="w-full space-y-6">
           {skillCategories.map((category) => (
             <div key={category.name} className="w-full">
-              <h3 className="mb-3 font-anek-bangla text-xl font-medium text-gray-700">
+              <h3 className="mb-3 font-anek-bangla text-lg font-medium text-gray-700">
                 {category.name}
               </h3>
               <div className="flex flex-wrap gap-3 font-anek-bangla text-lg">
