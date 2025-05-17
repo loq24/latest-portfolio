@@ -60,7 +60,6 @@ export default function About() {
         { name: "NodeJS", icon: SiNodedotjs },
         { name: "PHP", icon: SiPhp },
         { name: "Laravel", icon: SiLaravel },
-        { name: "WordPress", icon: SiWordpress },
         { name: "REST API", icon: AiOutlineApi },
         { name: "GraphQL", icon: SiGraphql },
         { name: "Stripe API", icon: SiStripe },
@@ -82,6 +81,7 @@ export default function About() {
         { name: "Docker", icon: SiDocker },
         { name: "Sanity.io", icon: SiSanity },
         { name: "StrapiJS", icon: SiStrapi },
+        { name: "WordPress", icon: SiWordpress },
       ],
     },
     {
@@ -121,15 +121,20 @@ export default function About() {
         <h2 className="mb-6 font-anek-bangla text-2xl font-semibold text-raisin-black sm:text-5xl lg:mb-8">
           My Skills
         </h2>
-        <div className="w-full space-y-6">
+        <div className="w-full space-y-10">
           {skillCategories.map((category) => (
             <div key={category.name} className="w-full">
-              <h3 className="mb-3 font-anek-bangla text-lg font-medium text-gray-700">
+              <h3 className="mb-4 flex items-center font-anek-bangla text-lg font-medium text-gray-600">
+                <span className="mr-2 h-[1px] w-4 bg-gray-300"></span>
                 {category.name}
               </h3>
               <div className="flex flex-wrap gap-3 font-anek-bangla text-lg">
                 {category.skills.map((skill) => (
-                  <Button key={skill.name} icon={skill.icon}>
+                  <Button
+                    key={skill.name}
+                    icon={skill.icon}
+                    className="bg-gray-100 hover:bg-gray-100 hover:text-gray-800"
+                  >
                     {skill.name}
                   </Button>
                 ))}
