@@ -7,6 +7,7 @@ import { ProjectType } from "@/types";
 import Button from "../common/Button";
 import Text from "../common/Text";
 import Image from "next/image";
+import skillCategories from "@/utils/skillsCategories";
 
 type FeaturedProjectType = {
   project: ProjectType;
@@ -23,6 +24,24 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
     repository_link,
   } = project;
   const wrapperRef = useRef(null);
+
+  const findSkillByName = (skillName: string) => {
+    const normalizedTagName = skillName.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    for (const category of skillCategories) {
+      const skill = category.skills.find((skill) => {
+        const normalizedSkillName = skill.name
+          .toLowerCase()
+          .replace(/[^a-z0-9]/g, "");
+        return (
+          normalizedSkillName.includes(normalizedTagName) ||
+          normalizedTagName.includes(normalizedSkillName)
+        );
+      });
+      if (skill) return skill;
+    }
+    return null;
+  };
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -53,9 +72,8 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
       className="w-full translate-y-60 pb-20 sm:pb-32 md:pb-44"
       ref={wrapperRef}
     >
-      <div className="centered-block flex h-full flex-col items-center gap-10 lg:flex-row">
-        <div className="relative w-full overflow-hidden lg:w-1/2">
-          <div className="absolute right-0 top-0 z-20 h-[calc(100%-15px)] w-[12%] bg-slate-100"></div>
+      <div className="centered-block flex h-full flex-col items-center gap-10">
+        <div className="relative mx-auto w-[90%] overflow-hidden">
           <div className="absolute left-0 top-0 z-20 h-[calc(100%-15px)] w-[12%] bg-slate-100"></div>
           <Image
             src="/images/macbook-02.png"
@@ -80,7 +98,7 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
             )}
           </div>
         </div>
-        <div className="flex w-full flex-col justify-start gap-3 lg:w-1/2">
+        <div className="flex w-full flex-col justify-start gap-3">
           <h2
             data-animation="text"
             className="mr-1 font-anek-bangla text-3xl font-semibold text-raisin-black"
@@ -89,8 +107,14 @@ export default function FeaturedProject({ project }: FeaturedProjectType) {
           </h2>
           <div className="mb-2 flex flex-wrap gap-3">
             {tags.map((tag) => {
+              const skill = findSkillByName(tag);
               return (
                 <Button key={tag} className="button">
+                  {skill?.icon && (
+                    <span className="mr-1">
+                      <skill.icon size={16} />
+                    </span>
+                  )}
                   {tag}
                 </Button>
               );
