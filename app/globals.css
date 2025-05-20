@@ -18,7 +18,7 @@
 
 @layer utilities {
   .centered-block {
-    --ideal-block-width: min(1000px, 85%);
+    --ideal-block-width: min(1020px, 85%);
     @apply mx-auto w-[--ideal-block-width];
   }
 
