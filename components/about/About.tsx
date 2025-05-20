@@ -3,93 +3,9 @@
 import Button from "../common/Button";
 import Heading from "../common/Heading";
 import Text from "../common/Text";
-
-import {
-  SiOpenai,
-  SiReact,
-  SiNextdotjs,
-  SiTypescript,
-  SiJavascript,
-  SiTailwindcss,
-  SiRedux,
-  SiReactquery,
-  SiStripe,
-  SiPhp,
-  SiLaravel,
-  SiWordpress,
-  SiNodedotjs,
-  SiGraphql,
-  SiHtml5,
-  SiCss3,
-  SiMysql,
-  SiPostgresql,
-  SiMongodb,
-  SiAmazon,
-  SiDocker,
-  SiPrisma,
-  SiGreensock,
-  SiSanity,
-  SiStrapi,
-} from "react-icons/si";
-import { FaAws } from "react-icons/fa";
-import { AiOutlineApi } from "react-icons/ai";
-import { RiZzzFill } from "react-icons/ri";
+import skillCategories from "@/utils/skillsCategories";
 
 export default function About() {
-  const skillCategories = [
-    {
-      name: "Frontend",
-      skills: [
-        { name: "ReactJS", icon: SiReact },
-        { name: "NextJS", icon: SiNextdotjs },
-        { name: "TypeScript", icon: SiTypescript },
-        { name: "JavaScript", icon: SiJavascript },
-        { name: "TailwindCSS", icon: SiTailwindcss },
-        { name: "Redux", icon: SiRedux },
-        { name: "Zustand", icon: RiZzzFill },
-        { name: "Tanstack Query", icon: SiReactquery },
-        { name: "React Native", icon: SiReact },
-        { name: "HTML5", icon: SiHtml5 },
-        { name: "CSS3", icon: SiCss3 },
-        { name: "GSAP", icon: SiGreensock },
-      ],
-    },
-    {
-      name: "Backend",
-      skills: [
-        { name: "NodeJS", icon: SiNodedotjs },
-        { name: "PHP", icon: SiPhp },
-        { name: "Laravel", icon: SiLaravel },
-        { name: "REST API", icon: AiOutlineApi },
-        { name: "GraphQL", icon: SiGraphql },
-        { name: "Stripe API", icon: SiStripe },
-      ],
-    },
-    {
-      name: "Database",
-      skills: [
-        { name: "MySQL", icon: SiMysql },
-        { name: "PostgreSQL", icon: SiPostgresql },
-        { name: "MongoDB", icon: SiMongodb },
-        { name: "Prisma", icon: SiPrisma },
-      ],
-    },
-    {
-      name: "DevOps & CMS",
-      skills: [
-        { name: "AWS", icon: FaAws },
-        { name: "Docker", icon: SiDocker },
-        { name: "Sanity.io", icon: SiSanity },
-        { name: "StrapiJS", icon: SiStrapi },
-        { name: "WordPress", icon: SiWordpress },
-      ],
-    },
-    {
-      name: "Emerging Tech",
-      skills: [{ name: "AI Integration", icon: SiOpenai }],
-    },
-  ];
-
   return (
     <div
       className="centered-block flex flex-col items-start pb-16 pt-20 lg:gap-20 lg:pb-48"
