@@ -16,14 +16,12 @@
   }
 }
 
-@layer components {
+@layer utilities {
   .centered-block {
-    --ideal-block-width: min(1200px, 85%);
+    --ideal-block-width: min(1020px, 85%);
     @apply mx-auto w-[--ideal-block-width];
   }
-}
 
-@layer utilities {
   .bottom-clipped {
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
   }

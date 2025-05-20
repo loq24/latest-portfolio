@@ -16,7 +16,7 @@ export default function Heading({
   return (
     <Tag
       className={twMerge(
-        "mb-4 font-anek-bangla text-4xl font-semibold text-raisin-black sm:text-5xl lg:mb-5 lg:text-6xl",
+        "mb-4 font-anek-bangla text-4xl font-semibold text-raisin-black sm:text-5xl lg:mb-8 lg:text-6xl",
         className
       )}
     >

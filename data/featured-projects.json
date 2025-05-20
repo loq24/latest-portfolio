@@ -3,15 +3,15 @@
     "name": "Ayala Land Residences",
     "description": "A premium real estate website for the Philippines' largest property developer. I had the pleasure of helping build their website under 10up agency. Built with NextJS and integrated with Sanity.io CMS featuring Presentation mode for seamless content management. The site showcases Ayala's extensive portfolio of estates, residential brands, and properties with an elegant UI implemented using TailwindCSS and TypeScript. Features include property search, interactive galleries, and responsive design optimized for performance across all devices.",
     "featuredImage": "/images/websites/ayala-land-residences.jpg",
-    "tags": ["NextJS", "TailwindCSS", "TypeScript", "Sanity.io"],
+    "tags": ["NextJS", "TypeScript", "TailwindCSS", "Sanity.io"],
     "buttonText": "Visit Website",
     "link": "https://ayalaland.com/"
   },
   {
     "name": "American Business Bank",
     "description": "A sophisticated banking website for a US financial institution featuring secure, region-restricted access. Engineered with NextJS' App Router and TailwindCSS for exceptional performance and responsive design. Implemented a headless architecture with WordPress API backend, enabling the client to manage content through a familiar CMS while maintaining frontend performance. Established a robust CI/CD pipeline using GitHub Actions that automatically deploys updates, synchronizes with S3 storage, and maintains separate repositories for development and production—ensuring seamless content updates and consistent version control across environments.",
-    "featuredImage": "/images/websites/americanbb-bank-new.jpg",
-    "tags": ["NextJS", "TailwindCSS", "WP API", "Github CI/CD"],
+    "featuredImage": "/images/websites/americanbb-bank.jpg",
+    "tags": ["NextJS", "TailwindCSS", "Headless WordPress", "Github CI/CD"],
     "buttonText": "Visit Website (Available for US only)",
     "link": "https://americanbb.bank/"
   },
