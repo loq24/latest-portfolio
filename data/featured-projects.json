@@ -8,9 +8,24 @@
     "link": "https://ayalaland.com/"
   },
   {
+    "name": "Onlinejobs.ph AI integration",
+    "description": "The number one job portal in the Philippines, built with Laravel for the backend and Next.js with TypeScript for the frontend. I was tasked with integrating an AI-powered applicant ranking feature into the platform. This involved using Anthropic’s Batch API to evaluate and rank job applicants based on the job description, their resumes, and other relevant factors for a more intelligent and meticulous scoring system. The goal was to streamline the hiring process by helping employers quickly identify the most suitable candidates using AI-driven insights.",
+    "featuredImage": "/images/websites/oj-ai-ranking.jpg",
+    "tags": [
+      "NextJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Laravel",
+      "Anthropic",
+      "API"
+    ],
+    "buttonText": "Visit Website",
+    "link": "https://ayalaland.com/"
+  },
+  {
     "name": "American Business Bank",
-    "description": "A sophisticated banking website for a US financial institution featuring secure, region-restricted access. Engineered with NextJS' App Router and TailwindCSS for exceptional performance and responsive design. Implemented a headless architecture with WordPress API backend, enabling the client to manage content through a familiar CMS while maintaining frontend performance. Established a robust CI/CD pipeline using GitHub Actions that automatically deploys updates, synchronizes with S3 storage, and maintains separate repositories for development and production—ensuring seamless content updates and consistent version control across environments.",
     "featuredImage": "/images/websites/americanbb-bank.jpg",
+    "description": "A sophisticated banking website for a US financial institution featuring secure, region-restricted access. Engineered with NextJS' App Router and TailwindCSS for exceptional performance and responsive design. Implemented a headless architecture with WordPress API backend, enabling the client to manage content through a familiar CMS while maintaining frontend performance. Established a robust CI/CD pipeline using GitHub Actions that automatically deploys updates, synchronizes with S3 storage, and maintains separate repositories for development and production—ensuring seamless content updates and consistent version control across environments.",
     "tags": ["NextJS", "TailwindCSS", "Headless WordPress", "Github CI/CD"],
     "buttonText": "Visit Website (Available for US only)",
     "link": "https://americanbb.bank/"
