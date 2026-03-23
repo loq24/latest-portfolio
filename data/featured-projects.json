@@ -1,5 +1,20 @@
 [
   {
+    "name": "Onlinejobs.ph AI integration",
+    "description": "The number one job portal in the Philippines, built with Laravel for the backend and Next.js with TypeScript for the frontend. I was tasked with integrating an AI-powered applicant ranking feature into the platform. This involved using Anthropic’s Batch API to evaluate and rank job applicants based on the job description, their resumes, and other relevant factors for a more intelligent and meticulous scoring system. The goal was to streamline the hiring process by helping employers quickly identify the most suitable candidates using AI-driven insights.",
+    "featuredImage": "/images/websites/oj-ai-ranking.jpg",
+    "tags": [
+      "NextJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Laravel",
+      "Anthropic",
+      "API"
+    ],
+    "buttonText": "Visit Website",
+    "link": "https://onlinejobs.ph/"
+  },
+  {
     "name": "Ayala Land Residences",
     "description": "A premium real estate website for the Philippines' largest property developer. I had the pleasure of helping build their website under 10up agency. Built with NextJS and integrated with Sanity.io CMS featuring Presentation mode for seamless content management. The site showcases Ayala's extensive portfolio of estates, residential brands, and properties with an elegant UI implemented using TailwindCSS and TypeScript. Features include property search, interactive galleries, and responsive design optimized for performance across all devices.",
     "featuredImage": "/images/websites/ayala-land-residences.jpg",
@@ -14,21 +29,6 @@
     "tags": ["NextJS", "TailwindCSS", "Headless WordPress", "Github CI/CD"],
     "buttonText": "Visit Website (Available for US only)",
     "link": "https://americanbb.bank/"
-  },
-  {
-    "name": "Onlinejobs.ph AI integration",
-    "description": "The number one job portal in the Philippines, built with Laravel for the backend and Next.js with TypeScript for the frontend. I was tasked with integrating an AI-powered applicant ranking feature into the platform. This involved using Anthropic’s Batch API to evaluate and rank job applicants based on the job description, their resumes, and other relevant factors for a more intelligent and meticulous scoring system. The goal was to streamline the hiring process by helping employers quickly identify the most suitable candidates using AI-driven insights.",
-    "featuredImage": "/images/websites/oj-ai-ranking.jpg",
-    "tags": [
-      "NextJS",
-      "TypeScript",
-      "TailwindCSS",
-      "Laravel",
-      "Anthropic",
-      "API"
-    ],
-    "buttonText": "Visit Website",
-    "link": "https://onlinejobs.ph/"
   },
   {
     "name": "AI Email Helper",
