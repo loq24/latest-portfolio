@@ -1,38 +1,57 @@
 import {
-  SiOpenai,
-  SiReact,
-  SiNextdotjs,
-  SiTypescript,
-  SiJavascript,
-  SiTailwindcss,
-  SiRedux,
-  SiReactquery,
-  SiStripe,
-  SiPhp,
-  SiLaravel,
-  SiWordpress,
-  SiNodedotjs,
-  SiGraphql,
-  SiHtml5,
-  SiCss3,
-  SiMysql,
-  SiPostgresql,
-  SiMongodb,
-  SiDocker,
-  SiPrisma,
-  SiGreensock,
-  SiSanity,
-  SiStrapi,
-  SiShadcnui,
-  SiGithub,
-  SiSentry,
+  SiAnthropic,
   SiClerk,
+  SiCss3,
+  SiDocker,
+  SiFastapi,
+  SiGithub,
+  SiGooglegemini,
+  SiGraphql,
+  SiGreensock,
+  SiHtml5,
+  SiJavascript,
+  SiLangchain,
+  SiLaravel,
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiOllama,
+  SiOpenai,
+  SiPhp,
+  SiPostgresql,
+  SiPrisma,
+  SiPython,
+  SiReact,
+  SiReactquery,
+  SiRedux,
+  SiSanity,
+  SiSentry,
+  SiShadcnui,
+  SiStrapi,
+  SiStripe,
+  SiTailwindcss,
+  SiTypescript,
+  SiWordpress,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { AiOutlineApi } from "react-icons/ai";
-import { RiZzzFill } from "react-icons/ri";
+import { RiRobot2Line, RiZzzFill } from "react-icons/ri";
+import { TbFileVector, TbSparkles } from "react-icons/tb";
 
 const skillCategories = [
+  {
+    name: "AI Engineering",
+    skills: [
+      { name: "LangChain", icon: SiLangchain },
+      { name: "Agentic RAG", icon: RiRobot2Line },
+      { name: "OpenAI", icon: SiOpenai },
+      { name: "Anthropic", icon: SiAnthropic },
+      { name: "Gemini", icon: SiGooglegemini },
+      { name: "Ollama", icon: SiOllama },
+      { name: "Cursor", icon: TbSparkles },
+    ],
+  },
   {
     name: "Frontend",
     skills: [
@@ -54,6 +73,8 @@ const skillCategories = [
     name: "Backend",
     skills: [
       { name: "NodeJS", icon: SiNodedotjs },
+      { name: "Python", icon: SiPython },
+      { name: "FastAPI", icon: SiFastapi },
       { name: "PHP", icon: SiPhp },
       { name: "Laravel", icon: SiLaravel },
       { name: "Headless WP", icon: SiWordpress },
@@ -69,6 +90,7 @@ const skillCategories = [
     skills: [
       { name: "MySQL", icon: SiMysql },
       { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "pgvector", icon: TbFileVector },
       { name: "MongoDB", icon: SiMongodb },
       { name: "Prisma", icon: SiPrisma },
     ],
@@ -83,10 +105,6 @@ const skillCategories = [
       { name: "WordPress", icon: SiWordpress },
       { name: "Sentry", icon: SiSentry },
     ],
-  },
-  {
-    name: "Emerging Tech",
-    skills: [{ name: "AI Integration", icon: SiOpenai }],
   },
 ];
 

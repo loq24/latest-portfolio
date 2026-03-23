@@ -14,23 +14,25 @@ export default function About() {
       <div className="mb-9 w-full lg:mb-0">
         <Heading>About Me</Heading>
         <Text className="mb-4">
-          A seasoned Full Stack Engineer with over 14 years dedicated to
-          crafting effective digital experiences, my core technical proficiency
-          lies in the ReactJS/NextJS framework for building responsive and
-          performant UIs.
+          With over 14 years of experience, I am a senior full-stack engineer
+          focused on building polished, high-performing digital products. React
+          and NextJS remain my foundation, supported by hands-on experience
+          across backend systems, headless CMS architecture, cloud
+          infrastructure, and modern deployment workflows.
         </Text>
         <Text className="mb-4">
-          I have successfully delivered a range of projects, from developing
-          secure web infrastructure for a bank and a compelling online presence
-          for a popular artist, to spearheading the digital launch of a
-          significant new product and constructing an enterprise-level corporate
-          website.
+          My recent work spans AI-powered applicant ranking for a major job
+          platform, secure banking infrastructure, premium real estate
+          experiences, real-time collaboration tools, and consumer-facing
+          product launches. I enjoy turning complex requirements into fast,
+          reliable, and intuitive experiences that serve both users and
+          business goals.
         </Text>
         <Text className="mb-4">
-          Committed to continuous improvement and innovation, I am now
-          incorporating AI into my skillset. I view AI as a powerful enabler to
-          streamline development, enhance creative problem-solving, and
-          contribute to the next generation of intelligent web applications.
+          AI is now a core part of how I build, not just an area of
+          exploration. I use LLMs, automation, and AI-assisted workflows to
+          create smarter products, streamline development, and ship features
+          that feel genuinely useful in production.
         </Text>
       </div>
       <div className="flex w-full flex-col items-start justify-center">
