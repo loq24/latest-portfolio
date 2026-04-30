@@ -1,9 +1,10 @@
+import type { ElementType, ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
 type HeadingType = {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
 };
 
 export default function Heading({
