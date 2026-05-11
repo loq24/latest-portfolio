@@ -6,7 +6,7 @@ import Projects from "@/components/projects/Projects";
 export const metadata = {
   title: "Projects",
   description: "My previous projects that I worked on over the years.",
-  metadataBase: new URL("https://portfolio-latest-loq24.vercel.app"),
+  metadataBase: new URL("https://lougiequisel.digital/"),
   openGraph: {
     title: "Projects",
     description: "My previous projects that I worked on over the years.",
